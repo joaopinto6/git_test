@@ -1,0 +1,9 @@
+[build]
+	command = "npm install"
+	functions = "netlify/builders"
+	publish = "."
+
+[[redirects]]
+  from = "/test"
+  to = "/.netlify/builders/index"
+  status = 200
